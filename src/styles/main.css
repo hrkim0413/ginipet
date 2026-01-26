@@ -1,0 +1,14 @@
+.main-sec1,
+.main-sec2,
+.main-sec3,
+.main-sec4 {
+  width: 100%;
+}
+
+.main-sec1 img,
+.main-sec2 img,
+.main-sec3 img,
+.main-sec4 img {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,88 @@
+/* 공통 */
+.main-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* 로그인/회원가입 */
+.login-join {
+  padding: 40px 20px;
+}
+
+.login-join form p~p {
+  margin-top: 10px;
+}
+
+.login-join form p input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.login-join form p label {
+  display: none;
+}
+
+.login-join form p input[type='radio'],
+.login-join form p input[type='checkbox'] {
+  width: auto;
+}
+
+.login-join form p label[for="member"],
+.login-join form p label[for="nomember"],
+.login-join form p label[for="username_check"],
+.login-join form p label[for="agree"] {
+  display: inline-block;
+}
+
+.login-join form .ck-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-join form .ck-box input {
+  margin: 0;
+}
+
+.login-join form p button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #ea3232;
+  color: #fff;
+}
+
+/* 로그인 */
+.login form .member-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login form .member-box label~input {
+  margin-left: 20px;
+}
+
+.login form .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 회원가입 */
+.join form .id-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.join form .id-box input {
+  width: 75%;
+}
+
+.join form .id-box button {
+  width: 24%;
+}
