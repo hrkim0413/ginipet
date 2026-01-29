@@ -38,7 +38,7 @@ const Join = () => {
       return false;
     }
 
-    axios.post('http://localhost:9070/check-username', {
+    axios.post('https://port-0-backend-express-server-mkvwcttqba8659cb.sel3.cloudtype.app/check-username', {
       username: form.username
     })
       .then(res => {
@@ -66,7 +66,7 @@ const Join = () => {
     }
 
     // 백엔드에 데이터 넣기
-    axios.post('http://localhost:9070/register', form)
+    axios.post('https://port-0-backend-express-server-mkvwcttqba8659cb.sel3.cloudtype.app/ginipet-register', form)
       .then(() => {
         alert('회원가입이 완료되었습니다. 로그인 페이지로 이동합니다');
         navigate('/login');
